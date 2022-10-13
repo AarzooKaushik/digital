@@ -112,6 +112,7 @@ box-shadow: 4px 4px 10px #01de9a;
 }
 .tilted-heading{
     transform: rotate(-90deg);
+   
 }
 .secondary-heading{
     font-family: 'Oswald', sans-serif;  
@@ -138,7 +139,7 @@ height:650px;
    align-items: center;
 }
 .service-box{
-    width:280px;
+    width:250px;
     height:300px;
     background-color:#0f0f0f;
     border-radius: 10px;
@@ -150,12 +151,12 @@ height:650px;
     justify-content: center;
 }
 .tertiary-heading{
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
     font-family: 'Oswald', sans-serif;  
 }
 .secondary-para{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     line-height: 16px;
 }
@@ -172,3 +173,45 @@ height:650px;
     border-radius: 10px;
     padding:30px;
 }
+.why-us-section{
+    width:85%;
+    padding-right: 6rem;
+}
+.why-us-box{
+   
+   justify-content: space-between;
+    display: flex;
+}
+.why-box-heading{
+    width:600px;
+    height:120px;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
+.why-box-content{
+   display: flex;
+   flex-direction: column;
+  justify-content:end;
+  padding:0 7rem 1rem 2rem;
+  
+}
+.why-box-content p{
+    text-align: left;
+}
+.why-box-content h3{
+    letter-spacing: 2px;
+}
+.box-number{
+    padding-top: 20px;
+    text-align: center;
+   width:180px;
+    height:100%;
+    color:#333232;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
