@@ -18,6 +18,12 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.menu-button {
+  color: #01de9a;
+  font-size: 22px;
+  display: none;
+}
+
 .logo {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
@@ -464,6 +470,12 @@ a:hover {
   .navlist {
     display: none;
   }
+  .menu-button {
+    display: block;
+  }
+  .navbar .btn-home {
+    display: none;
+  }
   .home-content {
     width: 80%;
   }
@@ -539,6 +551,11 @@ a:hover {
   .testimonial-content {
     width: 70%;
   }
+  .testimonial-content .fa-solid {
+    font-size: 35px;
+    left: -35px;
+    top: -22px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -549,13 +566,11 @@ a:hover {
   }
   .home-content {
     width: 100%;
+    padding: 5rem 0 0 0;
   }
 
   .testimonial-content {
     width: 80%;
-  }
-  .navbar .btn-home {
-    display: none;
   }
 }
 
@@ -569,6 +584,17 @@ a:hover {
   .process-content {
     grid-template-columns: 1fr 1fr;
   }
+  .navbar {
+    padding: 2rem 3rem;
+  }
+  .testimonial-content .fa-solid {
+    font-size: 30px;
+    left: -30px;
+    top: -18px;
+  }
+  .testimonial-content {
+    margin-left: 70px;
+  }
 }
 @media (max-width: 450px) {
   .primary-heading {
@@ -580,6 +606,12 @@ a:hover {
   }
   .footer {
     padding: 20px;
+  }
+  .tilted-heading {
+    width: auto;
+  }
+  .testimonial-content {
+    margin-left: 50px;
   }
 }
 @media (max-width: 400px) {
@@ -595,5 +627,11 @@ a:hover {
   }
   .footer-column-1 {
     width: auto;
+  }
+  .navbar {
+    padding: 2rem;
+  }
+  .testimonial-content {
+    margin-left: 40px;
   }
 }
